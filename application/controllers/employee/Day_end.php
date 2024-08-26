@@ -22,6 +22,7 @@ class Day_end extends CI_Controller
     $this->load->view('employee/base', $data,'refresh');
   }
 
+
   function day_end()
   {
     $date = $this->input->post();  

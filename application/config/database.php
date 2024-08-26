@@ -78,9 +78,9 @@ $db['default'] = array(
 
     'dsn'    => '',
     'hostname' => 'localhost',
-    'username' => 'aspandana_db',
-    'password' => '(?P?G(OSWD{C',
-    'database' => 'aspandana_db',
+    'username' => 'root',
+    'password' => '',
+    'database' => 'aspandana',
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,

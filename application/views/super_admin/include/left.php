@@ -74,6 +74,24 @@
                                 Create Commission Category
                             </a>
                         </li>
+                       
+                        <li>
+                            <a href="<?php echo base_url('super_admin/Category/Income_source/create_income_source'); ?>" key="t-login">
+                                Create Income Sources
+                            </a>
+                        </li>
+                        <li>
+                            <a href="<?php echo base_url('super_admin/Category/Expense/expense_category'); ?>" key="t-login">
+                                Create Expense Category
+                            </a>
+                        </li>
+                        <li>
+                            <a href="<?php echo base_url('super_admin/Category/Expense/mis_expense_category'); ?>" key="t-login">
+                            Miscellaneous Category
+                            </a>
+                        </li>
+
+
                     </ul>
                 </li>
                 
@@ -221,56 +239,9 @@
                     </a>
                 </li>
 
-                <!-- Create Commission Section Start Here -->
-                <!-- <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class='bx bx-user-circle'></i>
-                        <span key="t-authentication">Commission</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li>
-                            <a href="<?php echo base_url('super_admin/Commission/add_commission'); ?>" key="t-login">
-                                Create Commission
-                            </a>
-                        </li>
-                        <li>
-                            <a href="<?php echo base_url('super_admin/Group_loan/'); ?>" key="t-login">
-                                Commission List
-                            </a>
-                        </li>
-                        <li>
-                            <a href="<?php echo base_url('super_admin/Group_loan/'); ?>" key="t-login">
-                                Commission Payment List
-                            </a>
-                        </li>
-                    </ul>
-                </li> -->
 
-                <!-- <li class="menu-title" key="t-menu">Accounting</li> -->
-                <!-- Create Commission Section Start Here -->
-                <!-- <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class='bx bx-user-circle'></i>
-                        <span key="t-authentication">Group</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li>
-                            <a href="<?//php echo base_url('super_admin/accounting/Group/add_group'); ?>" key="t-login">
-                                Create Group
-                            </a>
-                        </li>
-                        <li>
-                            <a href="<?//php echo base_url('super_admin/Group_loan/'); ?>" key="t-login">
-                                Group List
-                            </a>
-                        </li>
-                    </ul>
-                </li> -->
-
-
-                
-
-                <!-- <li class="menu-title" key="t-menu">Accounting Section</li>
+                <li class="menu-title" key="t-menu">Accounting Section</li>
+                <!-- Staff Section Start Here -->
                 <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class='bx bx-user-circle'></i>
@@ -278,22 +249,50 @@
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
                         <li>
-                            <a href="<?//php echo base_url('super_admin/accounting/Income/add_income'); ?>" key="t-login">
+                            <a href="<?php echo base_url('super_admin/accounting/Income/add_income'); ?>" key="t-login">
                                 Add Incomes
                             </a>
                         </li>
                         <li>
-                            <a href="<?//php echo base_url('super_admin/Staff/'); ?>" key="t-login">
+                            <a href="<?php echo base_url('super_admin/accounting/Income/manage_income'); ?>" key="t-login">
                                 Incomes List
                             </a>
                         </li>
                     </ul>
-                </li> -->
+                </li>
 
 
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow waves-effect">
+                        <i class='bx bx-user-circle'></i>
+                        <span key="t-authentication">Expense Management</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li>
+                            <a href="<?php echo base_url('super_admin/category/Expense/add_expense'); ?>" key="t-login">
+                                Add Expense
+                            </a>
+                        </li>
+                        <li>
+                            <a href="<?php echo base_url('super_admin/category/Expense/man_expense'); ?>" key="t-login">
+                                Expense List
+                            </a>
+                        </li>
+                    </ul>
+                </li>
 
-
-
+                <li>
+                    <a href="<?php echo base_url('super_admin/accounting/Balance_sheet'); ?>" class="has-arrow waves-effect">
+                        <i class='bx bx-user-circle'></i>
+                        <span key="t-authentication">Balance Sheet</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo base_url('super_admin/accounting/Balance_sheet/balance_report'); ?>" class="has-arrow waves-effect">
+                        <i class='bx bx-user-circle'></i>
+                        <span key="t-authentication">Balance Sheet Report</span>
+                    </a>
+                </li>
             </ul>
         </div>
         <!-- Sidebar -->

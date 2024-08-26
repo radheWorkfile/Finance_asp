@@ -62,12 +62,12 @@
                                                 <input class="form-control" type="email" name="email" id="email"placeholder="Enter Email Id">
                                             </div>
                                         </div>
-                                        <!--<div class="col-lg-6">-->
-                                        <!--    <div class="mb-3">-->
-                                        <!--        <label for="example-date-input" class="form-label">Mobile Number <span class="text-danger">*</span></label>-->
-                                        <!--        <input class="form-control" type="text" name="mobile" id="mobile"placeholder="Enter Mobile Number" maxlength="10" oninput="this.value = this.value.toUpperCase().replace(/[^0-9]/g, '').replace(/(\  *?)\  */g, '$1')">-->
-                                        <!--    </div>-->
-                                        <!--</div>-->
+                                        <div class="col-lg-6">
+                                            <div class="mb-3">
+                                                <label for="example-date-input" class="form-label">Mobile Number <span class="text-danger">*</span></label>
+                                                <input class="form-control" type="text" name="mobile" id="mobile"placeholder="Enter Mobile Number" maxlength="10" oninput="this.value = this.value.toUpperCase().replace(/[^0-9]/g, '').replace(/(\  *?)\  */g, '$1')">
+                                            </div>
+                                        </div>
 
                                         
                                         <div class="col-lg-6">
@@ -157,7 +157,7 @@
                                                 <label for="example-number-input" class="form-label">Voter Card No.
                                                     <span class="text-danger">*</span></label>
                                                 <input class="form-control" type="text" name="voter_card_no"
-                                                    id="voter_card_no" maxlength="12"oninput="this.value = replace(/[^a-z0-9,. ]/g, '').replace(/\s+/g, ' ');" maxlength="10" placeholder="Enter Voter Card No.">
+                                                    id="voter_card_no" maxlength="12"oninput="this.value = this.value.toLowerCase().replace(/[^a-z0-9,. ]/g, '').replace(/\s+/g, ' ');" maxlength="10" placeholder="Enter Voter Card No.">
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
@@ -249,7 +249,7 @@
                                         <div class="col-lg-6">
                                             <div class="mb-3">
                                                 <label class="form-label">IFSC Code</label>
-                                                <input class="form-control" type="text" name="ifsc_code" id="ifsc_code" placeholder="Enter IFSC Code">
+                                                <input class="form-control" type="text" name="ifsc_code" id="ifsc_code" placeholder="Enter IFSC Code" oninput="validateIFSC(this)">
                                             </div>
                                         </div>
                                         <div class="col-lg-6">

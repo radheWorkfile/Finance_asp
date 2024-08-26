@@ -1,3 +1,36 @@
+$('#mop').on('change', function() {
+    let mode = this.value;
+    if (mode == 1) {
+
+        $('#cash_received_section').show('slow');
+        $('#received_acc_section').hide('slow');
+
+    } else if (mode == 2 || mode == 3) {
+
+        $('#received_acc_section').show('slow');
+        $('#cash_received_section').hide('slow');
+
+    } else {
+
+        $('#received_acc_section').hide('slow');
+        $('#cash_received_section').hide('slow');
+
+    }
+});
+
+function upload_proof(proof_id) {
+
+    if (proof_id == 0) {
+
+        $('#proof_image_section').hide('slow');
+
+    } else {
+        $('#proof_image_section').show('slow');
+
+    }
+
+}
+
 $(document).ready(function() {
     let searchObj = {};
 
@@ -77,7 +110,7 @@ $('#add_income_data').submit(function(e) {
                 });
                 setTimeout(function() {
                     window.location.reload(1);
-                    window.location.href = base_url + 'super_admin/Agent/manage_agent';
+                    window.location.href = base_url + 'super_admin/accounting/Income/manage_incomes';
                 }, 1500);
             }
         }

@@ -306,6 +306,8 @@ class Master extends CI_Controller
 
 							$grpNu = 11111 + $newGrpNum + $x;
 							$newGrpArr = array('branch_id' => $this->session->userdata('branch_id'), 'grp_id' => 'G' . $grpNu, 'center_id' => $success, 'name' => 'Group' . ($newGrpNum + $x + 1), 'created_by' => $this->logId, 'create_date' => config_item('work_end'));
+							print_r($newGrpArr);
+							die;
 							$this->common->save_data('master_group', $newGrpArr);
 						}
 

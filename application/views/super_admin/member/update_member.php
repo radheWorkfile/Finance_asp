@@ -29,12 +29,12 @@
             </div>
         </div>
 
-        <!--<div class="col-lg-4">-->
-        <!--    <div class="mb-3">-->
-        <!--        <label class="form-label">Mobile Number <span class="text-danger">*</span></label>-->
-        <!--        <input class="form-control" type="text" name="mobile" id="mobile" value="<?php echo $upd_memb['mobile_no'] ?>"maxlength="10" oninput="this.value = this.value.toUpperCase().replace(/[^0-9]/g, '').replace(/(\  *?)\  */g, '$1')">-->
-        <!--    </div>-->
-        <!--</div>-->
+        <div class="col-lg-4">
+            <div class="mb-3">
+                <label class="form-label">Mobile Number <span class="text-danger">*</span></label>
+                <input class="form-control" type="text" name="mobile" id="mobile" value="<?php echo $upd_memb['mobile_no'] ?>"maxlength="10" oninput="this.value = this.value.toUpperCase().replace(/[^0-9]/g, '').replace(/(\  *?)\  */g, '$1')">
+            </div>
+        </div>
         
         <div class="col-lg-4">
             <div class="mb-3">

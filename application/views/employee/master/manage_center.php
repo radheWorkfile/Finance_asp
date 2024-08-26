@@ -101,7 +101,7 @@
         <div class="col-lg-6">
             <div class="mb-3">
                 <label class="form-label">Center Name <span class="text-danger">*</span></label>
-                <input class="form-control miCln" type="text" name="center_name" id="center_name" placeholder="Enter Center Name" maxlength="20">
+                <input class="form-control miCln" type="text" name="center_name" id="center_name" placeholder="Enter Center Name" maxlength="20"oninput="this.value = this.value.toLowerCase().replace(/[^a-z0-9,. ]/g, '').replace(/\s+/g, ' ');">
             </div>
         </div>
          

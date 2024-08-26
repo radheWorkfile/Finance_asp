@@ -61,12 +61,12 @@
                                                 <input class="form-control" type="email" name="email" id="email"placeholder="Enter Email Id">
                                             </div>
                                         </div>
-                                        <!--<div class="col-lg-6">-->
-                                        <!--    <div class="mb-3">-->
-                                        <!--        <label for="example-date-input" class="form-label">Mobile Number <span class="text-danger">*</span></label>-->
-                                        <!--        <input class="form-control" type="text" name="mobile" id="mobile"placeholder="Enter Mobile Number" maxlength="10" oninput="this.value = this.value.toUpperCase().replace(/[^0-9]/g, '').replace(/(\  *?)\  */g, '$1')">-->
-                                        <!--    </div>-->
-                                        <!--</div>-->
+                                        <div class="col-lg-6">
+                                            <div class="mb-3">
+                                                <label for="example-date-input" class="form-label">Mobile Number <span class="text-danger">*</span></label>
+                                                <input class="form-control" type="text" name="mobile" id="mobile"placeholder="Enter Mobile Number" maxlength="10" oninput="this.value = this.value.toUpperCase().replace(/[^0-9]/g, '').replace(/(\  *?)\  */g, '$1')">
+                                            </div>
+                                        </div>
                                         <div class="col-lg-6">
                                             <div class="mb-3">
                                                 <label for="example-date-input" class="form-label">Date of Birth <span class="text-danger">*</span></label>

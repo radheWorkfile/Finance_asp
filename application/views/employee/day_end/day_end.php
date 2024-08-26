@@ -134,7 +134,6 @@
         </div>
     </div>
 </div>
-
 <div class="card">
     <div class="ami_dev"><span><i class="bx bxs-user-pin" style="font-size:1.1rem;"></i></span> <span id="mstrTitle">&nbsp;<?php echo config_item('work_end'); ?></span><span id="reload"></span>
         <form action="<?php echo base_url(); ?>employee/Day_end/day_end" method="post" id="addEndDataa">
@@ -148,6 +147,8 @@
                 </span></a>
         </form>
     </div>
+
+
 
     <div class="row">
         <div class="col-12">
